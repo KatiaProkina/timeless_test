@@ -13,7 +13,7 @@ const SearchContext = createContext<SearchContextType>({
 
 export const useSearchContext = () => useContext(SearchContext);
 
-export const SearchProvider: FC = ({ children }: any) => {
+export const SearchProvider: FC<PropsWithChildren> = ({ children }) => {
   const [searchQuery, setSearchQuery] = useState<string>('');
 
   return (
