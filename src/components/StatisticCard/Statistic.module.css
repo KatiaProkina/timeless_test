@@ -1,0 +1,49 @@
+.statistic_area {
+  background-color: #1e2027;
+  border-radius: 16px;
+  width: 332px;
+  padding-left: 24px;
+  padding-top: 24px;
+  height: 884px;
+}
+h1 {
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+  color: #dcd8d3;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.users {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #303238;
+}
+.age_groups {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #303238;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gender_groups {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.information_group {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.information_group p {
+  margin: 0px;
+  color: #dcd8d3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}

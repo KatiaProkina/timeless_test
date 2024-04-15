@@ -1,0 +1,23 @@
+.users_area {
+  padding-top: 24px;
+  height: 1150px;
+  overflow-y: auto;
+  flex-basis: 87%;
+}
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7a7a7a;
+  border-radius: 100px;
+}
+.no_result {
+  color: #7a7a7a;
+  font-size: 36px;
+}

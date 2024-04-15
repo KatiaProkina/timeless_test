@@ -1,0 +1,80 @@
+.user_card {
+  background-color: #1a1c23;
+  padding: 20px;
+  display: flex;
+  border-radius: 16px;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 310px;
+  width: 100%;
+  position: relative;
+}
+.user_card:hover {
+  border: 1px solid #cf7b5a33;
+}
+
+.icon_block {
+  display: flex;
+  gap: 6px;
+}
+.icon {
+  border-radius: 28px;
+}
+.information_block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+h1 {
+  margin: 0px;
+  color: #dcd8d3;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.name_block p {
+  color: #dcd8d3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+h3 {
+  margin: 0px;
+  color: #8c8988;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+}
+.information_block p {
+  margin: 0px;
+  color: #dcd8d3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.delete_icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.delete_btn {
+  display: block;
+  text-align: center;
+  background-image: url(/public/delete_icon.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #1a1c23;
+  border: none;
+  padding: 10px;
+  background-repeat: no-repeat;
+}
+
+/* .delete_btn:hover {
+  border: 1px solid #ff2c4733;
+  border-radius: 16px;
+} */
