@@ -6,7 +6,7 @@ interface Props {
   handleDeleteCallback: (phone: string) => void;
 }
 
-const UserCard: FC<Props> = memo(({ user, handleDeleteCallback }) => {
+const UserCard = memo(({ user, handleDeleteCallback }: Props) => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
   const {
